@@ -24,6 +24,12 @@
             <artifactId>org.restlet.ext.servlet</artifactId>
             <version>${restlet-version}</version>
         </dependency>
+        <!-- Restlet's bundled com.fasterxml.jackson for JSON I/O -->
+        <dependency>
+            <groupId>org.restlet.jse</groupId>
+            <artifactId>org.restlet.ext.jackson</artifactId>
+            <version>${restlet-version}</version>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
